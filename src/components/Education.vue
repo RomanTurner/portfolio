@@ -1,0 +1,28 @@
+<template>
+  <section class="container">
+    <article class="intro-container">
+      <p>
+        <strong>Flatiron School</strong> - Seattle, WA - Full Stack Web
+        Development Program
+      </p>
+      <p>02/02/2021 - 06/20/2021</p>
+    </article>
+    <article class="intro-container">
+      <p>
+        <strong>Utah State University</strong> - Logan, UT- Computer Science
+      </p>
+      <p>01/01/2011 - 04/01/2013</p>
+    </article>
+  </section>
+</template>
+
+<style scoped>
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  text-align: left;
+}
+</style>
