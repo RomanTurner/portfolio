@@ -3,10 +3,12 @@
     <CustomButton
       @click="onClick"
       :style="{ alignSelf: 'center' }"
-      :textContent="'See More'"
+      :textContent="open ? 'Close' : 'See More'"
     />
     <transition name="fade">
-      <div class="collapsable-content" v-if="open">Hello</div>
+      <div class="collapsable-content" v-if="open">
+        <slot></slot>
+      </div>
     </transition>
   </div>
 </template>
@@ -14,6 +16,7 @@
 <script>
 import CustomButton from "./CustomButton.vue";
 export default {
+  name: "Collapsable",
   components: { CustomButton },
   data() {
     return {
@@ -22,7 +25,6 @@ export default {
   },
   methods: {
     onClick() {
-      console.log("here");
       this.open = !this.open;
     },
   },
@@ -48,11 +50,14 @@ export default {
   display: flex;
   flex-direction: column;
   width: 100%;
+  overflow: hidden;
 }
 .collapsable-content {
-  background-color: gainsboro;
+  margin-top: 10px;
+  background-color: #ebebeb;
   width: 100%;
-  height: 300px;
+  height: 450px;
   text-align: center;
+  overflow: scroll;
 }
 </style>

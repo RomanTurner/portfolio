@@ -19,7 +19,7 @@ import Header from "@/components/sections/Header.vue";
 import FullResume from "@/components/sections/FullResume.vue";
 import TechnicalSkills from "@/components/sections/Skills.vue";
 import TechnicalProjects from "@/components/sections/Projects.vue";
-import AboutSection from "@/components/sections/About.vue";
+import AboutSection from "@/components/sections/about/About.vue";
 import WorkExperience from "@/components/sections/WorkExperience.vue";
 import Education from "@/components/sections/Education.vue";
 

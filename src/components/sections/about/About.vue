@@ -7,14 +7,19 @@
       years of experience working with small teams in production. I believe
       everyone has a unique skill or vision and I love seeing it piece together.
     </p>
-    <Collapsable />
+    <Collapsable>
+      <AboutCollapsableContent />
+    </Collapsable>
   </article>
 </template>
 <script>
-import Collapsable from "../basic-components/Collapsable.vue";
+import Collapsable from "../../basic-components/Collapsable.vue";
+import AboutCollapsableContent from "./AboutCollapsableContent.vue";
 export default {
+  name: "About",
   components: {
     Collapsable,
+    AboutCollapsableContent,
   },
 };
 </script>

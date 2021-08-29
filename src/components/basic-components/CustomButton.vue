@@ -1,5 +1,5 @@
 <template>
-  <div class="button">
+  <div class="custom-button">
     {{ textContent }}
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
 };
 </script>
 <style scoped>
-.button {
+.custom-button {
   border: none;
   padding: 4px 64px;
   text-align: center;
@@ -27,7 +27,7 @@ export default {
   color: black;
   border: 2px solid #77c9e7;
 }
-.button:hover {
+.custom-button:hover {
   background-color: #77c9e7;
   color: white;
 }
