@@ -15,7 +15,7 @@ export default {
 <style scoped>
 .button {
   border: none;
-  padding: 8px 64px;
+  padding: 4px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

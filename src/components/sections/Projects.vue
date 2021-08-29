@@ -48,6 +48,7 @@
           postgreSQL database.
         </li>
       </ul>
+      <Collapsable />
     </article>
     <article class="project">
       <h3 class="title">CollegeReco</h3>
@@ -63,6 +64,7 @@
         that created and trained a data model hosted on a Python Flask app.
         Great experience working with different tech fields.
       </p>
+      <Collapsable />
     </article>
     <article class="project">
       <h3 class="title">Dungeon Master’s ToolBox</h3>
@@ -90,6 +92,7 @@
         <li>Utilized polymorphic associations across data models.</li>
         <li>Constructed the frontend using ‘legacy’ React class components.</li>
       </ul>
+      <Collapsable />
     </article>
     <article class="project">
       <h3 class="title">MarKit Meals</h3>
@@ -103,6 +106,7 @@
       <ul class="details">
         <li>Customized Shopify UI/UX to maximize visitor conversion.</li>
       </ul>
+      <Collapsable />
     </article>
     <article class="project">
       <h3 class="title">Raw, Blogging Application</h3>
@@ -134,9 +138,17 @@
           RESTful routing practices.
         </li>
       </ul>
+      <Collapsable />
     </article>
   </section>
 </template>
+
+<script>
+import Collapsable from "../basic-components/Collapsable.vue";
+export default {
+  components: { Collapsable },
+};
+</script>
 
 <style scoped>
 section {

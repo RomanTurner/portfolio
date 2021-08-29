@@ -13,8 +13,18 @@
       </p>
       <p>01/01/2011 - 04/01/2013</p>
     </article>
+    <Collapsable />
   </section>
 </template>
+
+<script>
+import Collapsable from "../basic-components/Collapsable.vue";
+export default {
+  components: {
+    Collapsable,
+  }
+}
+</script>
 
 <style scoped>
 .intro-container {

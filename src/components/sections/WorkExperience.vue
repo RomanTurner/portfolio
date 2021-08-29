@@ -32,6 +32,7 @@
           in love with Software Engineering.
         </li>
       </ul>
+      <Collapsable />
     </article>
     <article class="job">
       <div class="title">
@@ -65,9 +66,17 @@
           from 30-33% to 14%.
         </li>
       </ul>
+      <Collapsable />
     </article>
   </section>
 </template>
+
+<script>
+import Collapsable from "../basic-components/Collapsable.vue";
+export default {
+  components: { Collapsable },
+};
+</script>
 
 <style scoped>
 section {
