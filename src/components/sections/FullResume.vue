@@ -15,11 +15,11 @@
 
 <script>
 // @ is an alias to /src
-import TechnicalSkills from "@/components/TechnicalSkills.vue";
-import TechnicalProjects from "@/components/TechnicalProjects.vue";
-import AboutSection from "@/components/AboutSection.vue";
-import WorkExperience from "@/components/WorkExperience.vue";
-import Education from "@/components/Education.vue";
+import TechnicalSkills from '@/components/sections/Skills.vue';
+import TechnicalProjects from '@/components/sections/Projects.vue';
+import AboutSection from '@/components/sections/About.vue';
+import WorkExperience from '@/components/sections/WorkExperience.vue';
+import Education from '@/components/sections/Education.vue';
 
 export default {
   name: "FullResume",

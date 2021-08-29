@@ -1,7 +1,7 @@
 <template>
   <div class="decorative">
     <div class="avatar">
-      <img alt="Vue logo" src="../assets/profile_pic.png" />
+      <img alt="Vue logo" src="../../assets/profile_pic.png" />
     </div>
   </div>
   <div class="decorative-contact">

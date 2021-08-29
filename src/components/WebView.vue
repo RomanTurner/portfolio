@@ -15,13 +15,13 @@
 <script>
 // @ is an alias to /src
 import NavMenu from "@/components/navigation/NavMenu.vue";
-import Header from "@/components/Header.vue";
-import FullResume from "@/components/FullResume.vue";
-import TechnicalSkills from "@/components/TechnicalSkills.vue";
-import TechnicalProjects from "@/components/TechnicalProjects.vue";
-import AboutSection from "@/components/AboutSection.vue";
-import WorkExperience from "@/components/WorkExperience.vue";
-import Education from "@/components/Education.vue";
+import Header from "@/components/sections/Header.vue";
+import FullResume from "@/components/sections/FullResume.vue";
+import TechnicalSkills from "@/components/sections/Skills.vue";
+import TechnicalProjects from "@/components/sections/Projects.vue";
+import AboutSection from "@/components/sections/About.vue";
+import WorkExperience from "@/components/sections/WorkExperience.vue";
+import Education from "@/components/sections/Education.vue";
 
 export default {
   components: {
@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     currentTabComponent({ id }) {
-      console.log(this.currentView, id)
+      console.log(this.currentView, id);
       this.currentView = id;
     },
   },

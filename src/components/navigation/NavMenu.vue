@@ -16,7 +16,7 @@
 <script>
 // @ is an alias to /src
 import NavMenuItem from "@/components/navigation/NavMenuItem.vue";
-import Avatar from "@/components/Avatar.vue";
+import Avatar from "@/components/navigation/Avatar.vue";
 
 export default {
   name: "NaveMenu",

@@ -7,9 +7,17 @@
       years of experience working with small teams in production. I believe
       everyone has a unique skill or vision and I love seeing it piece together.
     </p>
+    <Collapsable />
   </article>
 </template>
-
+<script>
+import Collapsable from "../basic-components/Collapsable.vue";
+export default {
+  components: {
+    Collapsable,
+  },
+};
+</script>
 <style scoped>
 .intro-container {
   display: flex;
