@@ -75,7 +75,7 @@
 
 <script>
 import Collapsable from "../../basic-components/Collapsable.vue";
-import CanCanCollapsableContent from "./CanCanCollapsableContent"
+import CanCanCollapsableContent from "./CanCanCollapsableContent";
 import MMCollapsableContent from "../technical-projects/markit-meals/MMCollapsableContent";
 export default {
   components: { Collapsable, MMCollapsableContent, CanCanCollapsableContent },
