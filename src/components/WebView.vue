@@ -2,8 +2,8 @@
   <div class="home">
     <NavMenu @display-selected="currentTabComponent" />
     <main class="main">
-      <Header />
       <section class="main-container">
+        <Header />
         <transition name="fade" mode="out-in">
           <component :is="currentView"></component>
         </transition>
@@ -18,7 +18,7 @@ import NavMenu from "@/components/navigation/NavMenu.vue";
 import Header from "@/components/sections/Header.vue";
 import FullResume from "@/components/sections/FullResume.vue";
 import TechnicalSkills from "@/components/sections/Skills.vue";
-import TechnicalProjects from "@/components/sections/Projects.vue";
+import TechnicalProjects from "@/components/sections/technical-projects/Projects.vue";
 import AboutSection from "@/components/sections/about/About.vue";
 import WorkExperience from "@/components/sections/WorkExperience.vue";
 import Education from "@/components/sections/Education.vue";

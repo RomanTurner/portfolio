@@ -7,7 +7,7 @@
       years of experience working with small teams in production. I believe
       everyone has a unique skill or vision and I love seeing it piece together.
     </p>
-    <Collapsable>
+    <Collapsable buttonText="More About Me">
       <AboutCollapsableContent />
     </Collapsable>
   </article>

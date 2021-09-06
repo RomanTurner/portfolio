@@ -14,6 +14,7 @@ export default {
 </script>
 <style scoped>
 .custom-button {
+  width: 300px;
   border: none;
   padding: 4px 64px;
   text-align: center;

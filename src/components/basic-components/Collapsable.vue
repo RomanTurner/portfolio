@@ -3,7 +3,7 @@
     <CustomButton
       @click="onClick"
       :style="{ alignSelf: 'center' }"
-      :textContent="open ? 'Close' : 'See More'"
+      :textContent="open ? 'Close' : buttonText"
     />
     <transition name="fade">
       <div class="collapsable-content" v-if="open">
@@ -18,6 +18,7 @@ import CustomButton from "./CustomButton.vue";
 export default {
   name: "Collapsable",
   components: { CustomButton },
+  props: ["buttonText"],
   data() {
     return {
       open: false,
@@ -47,6 +48,7 @@ export default {
   opacity: 0;
 }
 .collapsable {
+  top: -1px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -56,7 +58,7 @@ export default {
   margin-top: 10px;
   background-color: #ebebeb;
   width: 100%;
-  height: 450px;
+  height: 475px;
   text-align: center;
   overflow: scroll;
 }

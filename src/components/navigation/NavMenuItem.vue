@@ -21,6 +21,8 @@ export default {
   padding: 15px;
   width: 250px;
   cursor: pointer;
+
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
 .nav-card:hover {
   transform: scale(1.01);

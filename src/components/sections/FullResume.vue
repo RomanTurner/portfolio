@@ -18,7 +18,7 @@
 import AboutSection from "@/components/sections/about/About.vue";
 import Education from "@/components/sections/Education.vue";
 import TechnicalSkills from "@/components/sections/Skills.vue";
-import TechnicalProjects from "@/components/sections/Projects.vue";
+import TechnicalProjects from "@/components/sections/technical-projects/Projects.vue";
 import WorkExperience from "@/components/sections/WorkExperience.vue";
 
 export default {
