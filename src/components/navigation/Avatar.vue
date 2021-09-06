@@ -6,9 +6,9 @@
   </div>
   <div class="decorative-contact">
     <div class="contact-info">
-      <span>Contact Info</span>
-      <span>Contact Info</span>
-      <span>Contact Info</span>
+      <a href="mailto: roman.nturner@gmail.com">roman.nturner@gmail.com</a>
+      <a href="https://github.com/RomanTurner">github.com/RomanTurner</a>
+      <a href="https://www.linkedin.com/in/roman-turner/">linkedin.com/in/roman-turner</a>
     </div>
   </div>
 </template>

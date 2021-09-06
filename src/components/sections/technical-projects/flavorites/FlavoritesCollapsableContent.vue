@@ -1,6 +1,17 @@
 <template>
   <div class="about-container">
     <h3 class="title">Flavorites - Meal Planning Features</h3>
+    <div class="about-card">
+      <iframe
+        src="https://www.loom.com/embed/1ff5f9ed13a6472eab40e2822f1b08d9"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        width="90%"
+        height="95%"
+      ></iframe>
+    </div>
     <div class="about-card" v-for="info in cardInfo" :key="info.id">
       <h4>{{ info.textContent }}</h4>
       <div

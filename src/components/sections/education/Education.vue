@@ -13,17 +13,21 @@
       </p>
       <p>01/01/2011 - 04/01/2013</p>
     </article>
-    <Collapsable />
+    <Collapsable buttonText="Show Certification">
+      <EducationCollapsableContent
+    /></Collapsable>
   </section>
 </template>
 
 <script>
-import Collapsable from "../basic-components/Collapsable.vue";
+import Collapsable from "../../basic-components/Collapsable.vue";
+import EducationCollapsableContent from "./EducationCollapsableContent.vue";
 export default {
   components: {
     Collapsable,
-  }
-}
+    EducationCollapsableContent,
+  },
+};
 </script>
 
 <style scoped>

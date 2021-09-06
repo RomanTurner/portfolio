@@ -144,7 +144,6 @@
           RESTful routing practices.
         </li>
       </ul>
-      <Collapsable />
     </article>
   </section>
 </template>

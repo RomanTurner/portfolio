@@ -32,7 +32,7 @@
           in love with Software Engineering.
         </li>
       </ul>
-      <Collapsable />
+      <Collapsable buttonText="Details"> <MMCollapsableContent /></Collapsable>
     </article>
     <article class="job">
       <div class="title">
@@ -66,15 +66,19 @@
           from 30-33% to 14%.
         </li>
       </ul>
-      <Collapsable />
+      <Collapsable buttonText="Explore"
+        ><CanCanCollapsableContent
+      /></Collapsable>
     </article>
   </section>
 </template>
 
 <script>
-import Collapsable from "../basic-components/Collapsable.vue";
+import Collapsable from "../../basic-components/Collapsable.vue";
+import CanCanCollapsableContent from "./CanCanCollapsableContent"
+import MMCollapsableContent from "../technical-projects/markit-meals/MMCollapsableContent";
 export default {
-  components: { Collapsable },
+  components: { Collapsable, MMCollapsableContent, CanCanCollapsableContent },
 };
 </script>
 

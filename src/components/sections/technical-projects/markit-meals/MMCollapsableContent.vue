@@ -48,15 +48,14 @@ export default {
   height: 400px;
   padding: 10px;
   margin: 10px;
-  border-radius: 5%;
   background: white;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
     0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 .card-image {
   width: 100%;
-  height: 80%;
-  background-size: contain;
+  height: 90%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }

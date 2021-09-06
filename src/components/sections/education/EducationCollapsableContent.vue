@@ -1,18 +1,16 @@
 <template>
   <div class="about-container">
-    <h3 class="title">Markit Meal-kit Service</h3>
     <div class="about-card" v-for="info in cardInfo" :key="info.id">
-      <h4>{{ info.textContent }}</h4>
       <div
         class="card-image"
+        alt="info.textContent"
         :style="{ 'background-image': 'url(' + info.image + ')' }"
       ></div>
     </div>
   </div>
 </template>
 <script>
-import mm1 from "./assets/markit-meals.png";
-import mm2 from "./assets/markit-meals2.png";
+import certificate from "./assets/certificate.png";
 
 export default {
   name: "AboutCollapsableContent",
@@ -20,14 +18,9 @@ export default {
     return {
       cardInfo: [
         {
-          id: 5,
-          textContent: "Pike Place Market",
-          image: mm1,
-        },
-        {
           id: 1,
-          textContent: "Locally Sourced Meals",
-          image: mm2,
+          textContent: "Flatiron Certification",
+          image: certificate,
         },
       ],
     };
@@ -45,17 +38,16 @@ export default {
 }
 .about-card {
   width: 700px;
-  height: 400px;
+  height: 600px;
   padding: 10px;
   margin: 10px;
-  border-radius: 5%;
   background: white;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
     0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 .card-image {
   width: 100%;
-  height: 80%;
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

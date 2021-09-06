@@ -20,8 +20,8 @@ import FullResume from "@/components/sections/FullResume.vue";
 import TechnicalSkills from "@/components/sections/Skills.vue";
 import TechnicalProjects from "@/components/sections/technical-projects/Projects.vue";
 import AboutSection from "@/components/sections/about/About.vue";
-import WorkExperience from "@/components/sections/WorkExperience.vue";
-import Education from "@/components/sections/Education.vue";
+import WorkExperience from "@/components/sections/work-experience/WorkExperience.vue";
+import Education from "@/components/sections/education/Education.vue";
 
 export default {
   components: {
