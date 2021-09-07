@@ -21,9 +21,6 @@ export default {
   #lg {
     display: none;
   }
-  #sm {
-    background-color: red;
-  }
 }
 @media screen and (min-width: 800px) {
   #sm {

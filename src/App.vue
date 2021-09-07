@@ -23,4 +23,7 @@ h3 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+p {
+  font-weight: 500;
+}
 </style>
