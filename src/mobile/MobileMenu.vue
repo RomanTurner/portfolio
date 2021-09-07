@@ -76,7 +76,7 @@
       <article>
         <h3 class="article-title">Contact Me<span class="dot">.</span></h3>
         <p>
-          Use any of my contact links to get in touch for any opprotunities.
+          Use any of my contact links to get in touch for any opportunities.
           View website on a computer for more content.
         </p>
       </article>
