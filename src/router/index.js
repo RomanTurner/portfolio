@@ -7,6 +7,11 @@ const routes = [
     name: "Home",
     component: Home,
   },
+  {
+    path: "/:catchAll(.*)",
+    name: "Home",
+    component: Home,
+  },
 ];
 
 const router = createRouter({

@@ -20,8 +20,8 @@ export default {
 .nav-card {
   padding: 15px;
   width: 250px;
+  height: 60px;
   cursor: pointer;
-
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
 .nav-card:hover {

@@ -2,14 +2,15 @@
   <div class="about-container">
     <h3 class="title">Flavorites - Meal Planning Features</h3>
     <div class="about-card">
+      <h4>3 minute Walkthrough</h4>
       <iframe
         src="https://www.loom.com/embed/1ff5f9ed13a6472eab40e2822f1b08d9"
         frameborder="0"
         webkitallowfullscreen
         mozallowfullscreen
         allowfullscreen
-        width="90%"
-        height="95%"
+        width="100%"
+        height="90%"
       ></iframe>
     </div>
     <div class="about-card" v-for="info in cardInfo" :key="info.id">
@@ -83,14 +84,13 @@ export default {
   height: 400px;
   padding: 10px;
   margin: 10px;
-  border-radius: 5%;
   background: white;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
     0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 .card-image {
   width: 100%;
-  height: 80%;
+  height: 90%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
