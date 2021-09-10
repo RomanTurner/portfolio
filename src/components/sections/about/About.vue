@@ -4,7 +4,7 @@
       I am a JavaScript and Sushi enthusiast with a soft spot for Ruby and
       Musubi. I derive purpose from creation and I have a passion for making
       tools that can make your life easier. I am a community builder with ten
-      years of experience working with small teams in production. I believe
+      years of experience working in and as a manager of small teams. I believe
       everyone has a unique skill or vision and I love seeing it piece together.
     </p>
     <Collapsable buttonText="More About Me">
